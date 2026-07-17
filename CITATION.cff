@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "Se usar este material, por favor cite-o conforme os metadados abaixo."
+title: "Reprodução de TraceAnomaly (ISSRE'20) no testbed TrainTicket"
+type: software
+authors:
+  - given-names: Abraão
+    family-names: Freitas
+    affiliation: "Universidade Federal de Campina Grande (UFCG)"
+repository-code: "https://github.com/AbraaoCF/traceanomaly-reproduction"
+license: MIT
+keywords:
+  - detecção de anomalias
+  - microsserviços
+  - traces
+  - reprodutibilidade
+  - aprendizado não supervisionado
+abstract: >-
+  Kit de reprodução do experimento de testbed (TrainTicket) do TraceAnomaly
+  (ISSRE 2020): reexecução do artefato público, reconstrução das métricas de
+  detecção (RQ1) e reimplementação da etapa de decisão KDE + p-valor ausente do
+  código liberado (RQ2), num ambiente Docker fixado.
+references:
+  - type: conference-paper
+    title: "Unsupervised Detection of Microservice Trace Anomalies through Service-Level Deep Bayesian Networks"
+    year: 2020
+    doi: "10.1109/ISSRE5003.2020.00014"
+    collection-title: "2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE)"
+    authors:
+      - given-names: Ping
+        family-names: Liu
+      - given-names: Haowen
+        family-names: Xu
+      - given-names: Qianyu
+        family-names: Ouyang
+      - given-names: Rui
+        family-names: Jiao
+      - given-names: Zhekang
+        family-names: Chen
+      - given-names: Xiaoying
+        family-names: Bai
+      - given-names: Shenglin
+        family-names: Zhang
+      - given-names: Jiahai
+        family-names: Yang
+      - given-names: Linlin
+        family-names: Mo
+      - given-names: Jice
+        family-names: Zeng
+      - given-names: Wenman
+        family-names: Xue
+      - given-names: Dan
+        family-names: Pei

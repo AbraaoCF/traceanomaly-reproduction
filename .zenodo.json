@@ -1,0 +1,31 @@
+{
+  "title": "Reprodução de TraceAnomaly (ISSRE'20): detecção não supervisionada de anomalias em traces de microsserviços no testbed TrainTicket",
+  "upload_type": "software",
+  "description": "Kit de reprodução do experimento de testbed (TrainTicket) do TraceAnomaly (Liu et al., ISSRE 2020). Reexecuta o artefato público, reconstrói as métricas de detecção (RQ1) e reimplementa a etapa de decisão KDE + p-valor ausente do código liberado (RQ2), num ambiente Docker fixado. Inclui código, scripts, ambiente e resultados de referência de cinco execuções. Não redistribui os dados do testbed (ver instruções em data/README.md).",
+  "creators": [
+    {
+      "name": "Freitas, Abraão",
+      "affiliation": "Universidade Federal de Campina Grande (UFCG)"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "detecção de anomalias",
+    "microsserviços",
+    "traces distribuídos",
+    "reprodutibilidade",
+    "aprendizado não supervisionado"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "identifier": "10.1109/ISSRE5003.2020.00014"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "identifier": "https://github.com/NetManAIOps/TraceAnomaly"
+    }
+  ]
+}

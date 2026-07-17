@@ -1,0 +1,39 @@
+# Scratch: throwaway clone of upstream + model outputs from de-risking runs
+.scratch/
+
+# WSL "downloaded from internet" marker files
+*:Zone.Identifier
+
+# Upstream artifact is cloned by scripts/bootstrap.sh, not committed
+upstream/
+
+# Testbed data unpacked by scripts/bootstrap.sh from train_ticket/*.zip.
+# The unpacked files are not committed; data/README.md documents how to obtain them.
+data/*
+!data/README.md
+
+# Fora do kit público (permanecem locais): manuscrito LaTeX, PDF do artigo
+# original (copyright IEEE) e enunciado da disciplina.
+paper/
+paper-ISSRE20-TraceAnomaly.pdf
+instructions.md
+
+# Experiment outputs (scored CSVs, trained models)
+results/
+webankdata/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/main.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/

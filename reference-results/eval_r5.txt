@@ -1,0 +1,12 @@
+file:                 /results/rnvp_testbed_r5.csv
+traces:               35434 (30355 normal, 5079 anomalous)
+--- RQ1 reference operating curve (label-aware oracle, best achievable) ---
+AUPRC:                0.9521
+best-F1:              0.9242  (P=0.8700, R=0.9856)
+--- RQ2 decision: KDE(normal scores) + left-tail p-value, alpha=0.001 ---
+KDE fit on:           10000 normal validation scores (Scott bandwidth)
+flagged anomalous:    673 / 35434
+precision:            0.9866
+recall:               0.1307
+F1:                   0.2309
+confusion:            TP=664 FP=9 FN=4415 TN=30346
