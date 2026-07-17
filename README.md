@@ -1,8 +1,6 @@
 # Reprodução: TraceAnomaly (ISSRE'20)
 
-<!-- DOI (Zenodo): após o 1º release com o Zenodo ligado, substitua XXXXXXX e descomente:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/1303458680.svg)](https://doi.org/10.5281/zenodo.21403945)
 
 Kit de reprodução do experimento de **detecção não supervisionada de anomalias em
 *traces* de microsserviços** do artigo:
