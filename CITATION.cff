@@ -8,6 +8,10 @@ authors:
     affiliation: "Universidade Federal de Campina Grande (UFCG)"
 repository-code: "https://github.com/AbraaoCF/traceanomaly-reproduction"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21403945"
+    description: "Registro arquivado do artefato (Zenodo)"
 keywords:
   - detecção de anomalias
   - microsserviços
